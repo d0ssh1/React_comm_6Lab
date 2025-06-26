@@ -1,0 +1,200 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+form {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input[type="text"], input[type="number"], select {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.form-section {
+    margin-bottom: 15px;
+}
+
+.show {
+    display: table-row;
+}
+
+.hide {
+    display: none;
+}
+
+.active-page {
+    color: blue;
+    font-size: larger;
+}
+
+span {
+    padding: 10px;
+    float: left;
+    margin-left: 5px;
+}
+
+span:hover {
+    font-size: larger;
+    color: red;
+}
+
+svg {
+    width: 800px;
+    height: 400px;
+}
+
+svg path, line {
+    fill: none;
+    stroke: black;
+    width: 1px;
+}
+
+svg text {
+    font: 8px Verdana;
+}
+
+/* Стили для формы построения графика */
+
+.chart-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+.chart-form h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Стиль для каждой строки формы */
+.form-row {
+    display: flex;         /* Включаем Flexbox для выравнивания */
+    align-items: center;   /* Вертикальное выравнивание по центру */
+    margin-bottom: 15px;   /* Отступ между строками */
+}
+
+/* Стиль для заголовка в строке */
+.form-row strong {
+    min-width: 180px;      /* Фиксированная ширина для заголовков, чтобы они были под друг другом */
+    margin-right: 15px;    /* Отступ справа от заголовка */
+    font-weight: bold;
+}
+
+/* Группа для инпутов (радио-кнопок, чекбоксов) */
+.input-group {
+    display: flex;
+    gap: 20px; /* Расстояние между элементами в группе */
+}
+
+.input-group label {
+    display: flex;
+    align-items: center; /* Выравниваем чекбокс/радио-кнопку и текст */
+    gap: 5px;
+}
+
+/* Стиль для кнопки */
+.build-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Зеленый цвет, как на картинке */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.error-label label {
+    color: red;
+}
